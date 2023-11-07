@@ -1,4 +1,5 @@
-import 'package:aplikasi_flutter_pertamaku/row_widget.dart';
+import 'package:aplikasi_flutter_pertamaku/ui/produk_form.dart';
+import 'package:aplikasi_flutter_pertamaku/ui/produk_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Aplikasi Flutter Pertama",
-      home: RowWidget(),
+      home: ProdukPage(),
     );
   }
 }
